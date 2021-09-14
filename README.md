@@ -1,5 +1,5 @@
-# Docker
-Docker image for [slam-mirrorbot](https://github.com/Slam-Team/slam-mirrorbot)
+# mega-sdk-python
+Docker image for [slam-mirrorbot](https://github.com/SlamDevs/slam-mirrorbot)
 
 ## Status
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/breakdowns/mega-sdk-python?style=for-the-badge&label=Docker%20Build&logo=docker)
@@ -10,10 +10,7 @@ Docker image for [slam-mirrorbot](https://github.com/Slam-Team/slam-mirrorbot)
 ```
 docker pull breakdowns/mega-sdk-python:latest
 ```
-OR
-```
-docker pull ghcr.io/breakdowns/mega-sdk-python:latest
-```
 
 ## Credits
-- [Izzy12](https://github.com/lzzy12/) for original source
+- [`Izzy12`](https://github.com/lzzy12) for original source
+- [`KenHV`](https://github.com/KenHV) for workflow
