@@ -11,6 +11,6 @@ Docker image for [slam-mirrorbot](https://github.com/SlamDevs/slam-mirrorbot)
 docker pull breakdowns/mega-sdk-python:latest
 ```
 
-## Credits
-- [`Izzy12`](https://github.com/lzzy12) for original source
-- [`KenHV`](https://github.com/KenHV) for workflow
+# Credits
+- [`Izzy12`](https://github.com/lzzy12) for Original Source
+- [`KenHV`](https://github.com/KenHV) for Workflow
