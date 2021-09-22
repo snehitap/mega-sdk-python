@@ -36,4 +36,4 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64
-          tags: ghcr.io/${{ github.repository }}:${{ env.TAG }}
+          tags: ghcr.io/slamdevs/mega-sdk-python:${{ env.TAG }}
