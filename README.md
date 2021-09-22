@@ -15,4 +15,4 @@ docker pull breakdowns/mega-sdk-python:latest
 - [`Izzy12`](https://github.com/lzzy12) for Original Source
 - [`KenHV`](https://github.com/KenHV) for Workflow
 
-And many more people who aren't mentioned here, but can be found in [Contributors](https://github.com/breakdowns/mega-sdk-python/graphs/contributors).
+And many more people who aren't mentioned here, but can be found in [Contributors](https://github.com/SlamDevs/mega-sdk-python/graphs/contributors).
