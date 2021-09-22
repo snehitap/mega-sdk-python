@@ -11,7 +11,7 @@ on:
       - v*
 
 env:
-  IMAGE: ghcr.io/${{ github.repository }}
+  IMAGE: ghcr.io/slamdevs/mega-sdk-python
 
 jobs:
   build:
