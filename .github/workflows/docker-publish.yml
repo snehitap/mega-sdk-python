@@ -11,7 +11,7 @@ on:
       - v*
 
 env:
-  IMAGE: ghcr.io/slamdevs/mega-sdk-python
+  IMAGE: ghcr.io/snehitap/mega-sdk-python
 
 jobs:
   build:
@@ -36,4 +36,4 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64
-          tags: ghcr.io/slamdevs/mega-sdk-python:${{ env.TAG }}
+          tags: ghcr.io/snehitap/mega-sdk-python:${{ env.TAG }}
