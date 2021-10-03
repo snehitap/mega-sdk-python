@@ -2,16 +2,13 @@ name: ghcr.io
 
 on:
   push:
-    # Publish `master` as Docker `latest` image.
     branches:
       - master
-
-    # Publish `v1.2.3` tags as releases.
     tags:
       - v*
 
 env:
-  IMAGE: ghcr.io/slamdevs/mega-sdk-python
+  IMAGE: ghcr.io/${{ github.repository }}
 
 jobs:
   build:
@@ -36,4 +33,4 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64
-          tags: ghcr.io/slamdevs/mega-sdk-python:${{ env.TAG }}
+          tags: ghcr.io/${{ github.repository }}:${{ env.TAG }}
